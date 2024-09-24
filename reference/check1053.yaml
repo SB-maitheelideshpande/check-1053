@@ -245,14 +245,18 @@ components:
           type: string
           x-stoplight:
             id: ekfqyiurcwlgx
-        refer:
+        refer-model:
           $ref: 'stoplight://resources/overrides/lfbSFnTX40k'
           x-stoplight:
             id: qi10zs80gp2o6
-        refer-model:
-          $ref: ../models/model1.yaml
+        refer-DL:
+          $ref: 'https://x-19628.stoplight-dev.com/api/v1/projects/final-stop1053/dl-test1053/nodes/models/dl-model2.yaml?mid=4'
           x-stoplight:
-            id: uvp6w0aadcbu8
+            id: 03r0ak9k5orge
+        refer-CL:
+          $ref: 'stoplight://resources/overrides/yk95tzyy6x4'
+          x-stoplight:
+            id: noxt6jdlo48ko
   securitySchemes:
     SpsBearer:
       type: http

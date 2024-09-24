@@ -44,6 +44,13 @@ paths:
               schema:
                 type: object
                 $ref: 'stoplight://resources/overrides/lfbSFnTX40k'
+        '407':
+          description: Proxy Authentication Required
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: 'stoplight://resources/overrides/DdHN7UYMiVo'
       operationId: get-users-userId
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:

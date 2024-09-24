@@ -203,7 +203,7 @@ components:
   schemas:
     User:
       type: object
-      $ref: 'stoplight://resources/overrides/lfbSFnTX40k'
+      $ref: 'stoplight://resources/overrides/bHTlIRsENN8'
       x-stoplight:
         id: cmeieou2v9107
     user1:

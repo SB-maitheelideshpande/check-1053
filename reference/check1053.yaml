@@ -78,6 +78,23 @@ paths:
           description: User Not Found
         '409':
           description: Email Already Taken
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  referCL:
+                    $ref: 'stoplight://resources/overrides/plxWZhdCUJg'
+                    x-stoplight:
+                      id: 10cp46bnq98ua
+                  referDL:
+                    $ref: 'https://x-19628.stoplight-dev.com/api/v1/projects/final-stop1053/dl-test1053/nodes/models/dl-model1.yaml?mid=3'
+                    x-stoplight:
+                      id: e8vxgyy90el98
+                  refer-model:
+                    $ref: ../models/model1.yaml
+                    x-stoplight:
+                      id: jbbwpqb6k52b8
       description: Update the information of an existing user.
       requestBody:
         content:
@@ -240,6 +257,7 @@ components:
       x-stoplight:
         id: 04455ewxmjk11
       type: object
+      description: test-model1  own model DL CL models referered
       properties:
         id:
           type: string
@@ -257,6 +275,10 @@ components:
           $ref: 'stoplight://resources/overrides/yk95tzyy6x4'
           x-stoplight:
             id: noxt6jdlo48ko
+        refer-mask:
+          $ref: 'stoplight://resources/overrides/lfbSFnTX40k'
+          x-stoplight:
+            id: qnhhmu908t1qz
   securitySchemes:
     SpsBearer:
       type: http

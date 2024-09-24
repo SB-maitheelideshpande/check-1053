@@ -196,6 +196,25 @@ paths:
               schema:
                 type: object
                 $ref: 'stoplight://resources/overrides/bHTlIRsENN8'
+        '303':
+          description: See Other
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  refer-mask:
+                    $ref: 'stoplight://resources/overrides/lfbSFnTX40k'
+                    x-stoplight:
+                      id: 6mqfgdnrfhor0
+                  refer-complibmodel:
+                    $ref: 'stoplight://resources/overrides/inU5gLcLUy4'
+                    x-stoplight:
+                      id: j5t7qfcrpqp6u
+                  refer-DLmodel:
+                    $ref: 'https://x-19628.stoplight-dev.com/api/v1/projects/final-stop1053/dl-test1053/nodes/models/dl-model1.yaml?mid=3'
+                    x-stoplight:
+                      id: quq6d0nz520q6
       operationId: post-test-check1053
       x-stoplight:
         id: v748cfe991dig
@@ -230,6 +249,10 @@ components:
           $ref: 'stoplight://resources/overrides/lfbSFnTX40k'
           x-stoplight:
             id: qi10zs80gp2o6
+        refer-model:
+          $ref: ../models/model1.yaml
+          x-stoplight:
+            id: uvp6w0aadcbu8
   securitySchemes:
     SpsBearer:
       type: http

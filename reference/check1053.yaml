@@ -216,6 +216,20 @@ components:
           $ref: 'stoplight://resources/overrides/2jyMLo8vP70'
           x-stoplight:
             id: y0l8xs809mngv
+    test-model1:
+      title: test-model1
+      x-stoplight:
+        id: 04455ewxmjk11
+      type: object
+      properties:
+        id:
+          type: string
+          x-stoplight:
+            id: ekfqyiurcwlgx
+        refer:
+          $ref: 'stoplight://resources/overrides/lfbSFnTX40k'
+          x-stoplight:
+            id: qi10zs80gp2o6
   securitySchemes:
     SpsBearer:
       type: http

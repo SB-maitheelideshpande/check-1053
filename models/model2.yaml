@@ -1,0 +1,29 @@
+title: model2
+x-stoplight:
+  id: hhjmmvnh2hs3f
+type: object
+properties:
+  plant:
+    type: string
+    x-stoplight:
+      id: awncotrpz8xye
+  root:
+    type: string
+    x-stoplight:
+      id: lo3h1a1n52jx5
+  stem:
+    type: string
+    x-stoplight:
+      id: ncxzg6wn8dbhg
+  leaf:
+    type: string
+    x-stoplight:
+      id: 41stzn7w8ikei
+  bud:
+    type: string
+    x-stoplight:
+      id: 5b0upg4uqp9gh
+  flower:
+    type: string
+    x-stoplight:
+      id: 682a70w857zr2

@@ -1,0 +1,9 @@
+title: model4-refer-mask
+x-stoplight:
+  id: rm999zkc2upby
+type: object
+properties:
+  refer-mask:
+    $ref: 'stoplight://resources/overrides/lfbSFnTX40k'
+    x-stoplight:
+      id: x5kr9781sfluq

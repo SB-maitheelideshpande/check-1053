@@ -1,0 +1,37 @@
+title: model1
+x-stoplight:
+  id: p0i7om72vpvn4
+type: object
+properties:
+  dog:
+    type: string
+    x-stoplight:
+      id: 8fhh5vs0bnnm5
+  cat:
+    type: string
+    x-stoplight:
+      id: 7vw584c8030mb
+  horse:
+    type: string
+    x-stoplight:
+      id: 5js664jsvk6xm
+  deer:
+    type: string
+    x-stoplight:
+      id: 1pez7kj26etqi
+  cow:
+    type: string
+    x-stoplight:
+      id: 6eyzbxbiz7dj6
+  ox:
+    type: string
+    x-stoplight:
+      id: txsb8uchzkjov
+  type:
+    type: string
+    x-stoplight:
+      id: nf5gmtqxhkcej
+  id:
+    type: string
+    x-stoplight:
+      id: ugy8l7o16ipe9

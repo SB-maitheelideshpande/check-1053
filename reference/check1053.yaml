@@ -188,7 +188,14 @@ paths:
     post:
       summary: test-post
       tags: []
-      responses: {}
+      responses:
+        '301':
+          description: Moved Permanently
+          content:
+            application/json:
+              schema:
+                type: object
+                $ref: 'stoplight://resources/overrides/bHTlIRsENN8'
       operationId: post-test-check1053
       x-stoplight:
         id: v748cfe991dig

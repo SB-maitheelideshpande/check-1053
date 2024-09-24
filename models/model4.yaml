@@ -1,0 +1,25 @@
+title: model4
+x-stoplight:
+  id: 6aa9xamjib5cm
+type: object
+properties:
+  walk:
+    type: string
+    x-stoplight:
+      id: sbitsfbtwq9dq
+  talk:
+    type: string
+    x-stoplight:
+      id: qv5qldixtngtj
+  catch:
+    type: string
+    x-stoplight:
+      id: 07vzps599vp3j
+  play:
+    type: string
+    x-stoplight:
+      id: 37no0fgre1xh3
+  sleep:
+    type: string
+    x-stoplight:
+      id: eb99fasfy75va
